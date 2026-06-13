@@ -1,7 +1,4 @@
-# Rule-Based-AI-Chatbot
-A simple Rule-Based AI Chatbot developed using Python that responds to user input with predefined answers.
 # Rule-Based AI Chatbot
-
 ## Project Description
 This project is a simple Rule-Based AI Chatbot developed using Python. The chatbot interacts with users and provides predefined responses based on user input using if-else conditions.
 
