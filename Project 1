@@ -1,0 +1,35 @@
+# Rule-Based AI Chatbot
+
+print("=================================")
+print(" Welcome to Rule-Based AI Chatbot ")
+print(" Type 'exit' to quit")
+print("=================================")
+
+while True:
+    user = input("You: ").lower()
+
+    if user == "hello" or user == "hi":
+        print("Bot: Hello! How can I help you?")
+
+    elif user == "how are you":
+        print("Bot: I am fine. Thank you!")
+
+    elif user == "what is your name":
+        print("Bot: I am a Rule-Based AI Chatbot.")
+
+    elif user == "who created you":
+        print("Bot: I was created using Python and if-else logic.")
+
+    elif user == "course":
+        print("Bot: This internship focuses on Artificial Intelligence basics.")
+
+    elif user == "help":
+        print("Bot: You can ask me about my name, course, or greetings.")
+
+    elif user == "bye" or user == "exit":
+        print("Bot: Goodbye! Have a nice day.")
+        break
+
+    else:
+        print("Bot: Sorry, I don't understand that.")
+        
